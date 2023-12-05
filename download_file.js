@@ -2,7 +2,7 @@ var fs = require('fs');
 
 const urlDownloadRequest = 'http://127.0.0.1:8000/downloadrequest';
 const urlDownloadFile = 'http://127.0.0.1:8000/downloadfile';
-const ONE_OFFSET = 10240;
+const ONE_OFFSET = 102400;
 
 const filePath = "data.zip"
 

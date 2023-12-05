@@ -1,7 +1,7 @@
 var fs = require('fs');
 
 const url = 'http://127.0.0.1:8000/uploadfile';
-const ONE_OFFSET = 10240;
+const ONE_OFFSET = 102400;
 const filePath = "data.zip"
 
 const readBinaryData = (filePath) => {
